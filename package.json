@@ -1,9 +1,12 @@
 {
-	"name": "ky",
-	"version": "0.30.0",
+	"name": "@group900-3/cocos-ky",
+	"version": "1.30.0",
 	"description": "Tiny and elegant HTTP client based on the browser Fetch API",
 	"license": "MIT",
-	"repository": "sindresorhus/ky",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"repository": "group900-3/cocos-ky",
 	"funding": "https://github.com/sindresorhus/ky?sponsor=1",
 	"author": {
 		"name": "Sindre Sorhus",
