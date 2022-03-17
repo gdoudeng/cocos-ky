@@ -114,5 +114,9 @@
 		"exclude": [
 			"**/test/**"
 		]
+	},
+	"dependencies": {
+		"regenerator-runtime": "^0.13.9",
+		"whatwg-fetch": "^3.6.2"
 	}
 }

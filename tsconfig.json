@@ -1,18 +1,12 @@
 {
 	"extends": "@sindresorhus/tsconfig",
 	"compilerOptions": {
-		"target": "ES2019", // Node.js 12
-		"lib": [
-			"ES2019",
-			"DOM",
-			"DOM.Iterable",
-		],
+		"target": "ES5",
+		"lib": ["ES2019", "DOM", "DOM.Iterable"],
 		"useDefineForClassFields": false,
 		"allowSyntheticDefaultImports": true,
-		"module": "ES2020"
+		"module": "CommonJS",
+		"downlevelIteration": true
 	},
-	"include": [
-		"source",
-		"test"
-	]
+	"include": ["source", "test"]
 }
