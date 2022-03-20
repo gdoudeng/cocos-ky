@@ -3,12 +3,10 @@
 	<div>
 		<img width="600" height="600" src="media/logo.svg" alt="ky">
 	</div>
-	<p align="center">Huge thanks to <a href="https://lunanode.com"><img src="https://sindresorhus.com/assets/thanks/lunanode-logo.svg" width="170"></a> for sponsoring me!</p>
-	<br>
-	<br>
-	<br>
-	<br>
 </div>
+
+> 适配CocosCreator2.x模块导入的ky，模块格式改为cjs，默认导入fetch和URLSearchParams polyfill，可以在原生与web环境使用  
+> 3.x应该也可以用，但未经测试  
 
 > Ky is a tiny and elegant HTTP client based on the browser [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch)
 
@@ -34,23 +32,13 @@ It's just a tiny file with no dependencies.
 ## Install
 
 ```
-$ npm install ky
+$ npm install @group900-3/cocos-ky
 ```
-
-###### Download
-
-- [Normal](https://cdn.jsdelivr.net/npm/ky/index.js)
-- [Minified](https://cdn.jsdelivr.net/npm/ky/index.min.js)
-
-###### CDN
-
-- [jsdelivr](https://www.jsdelivr.com/package/npm/ky)
-- [unpkg](https://unpkg.com/ky)
 
 ## Usage
 
 ```js
-import ky from 'ky';
+import ky from '@group900-3/cocos-ky';
 
 const json = await ky.post('https://example.com', {json: {foo: true}}).json();
 
@@ -79,12 +67,6 @@ const json = await response.json();
 
 console.log(json);
 //=> `{data: '🦄'}`
-```
-
-If you are using [Deno](https://github.com/denoland/deno), import Ky from a URL. For example, using a CDN:
-
-```js
-import ky from 'https://cdn.skypack.dev/ky?dts';
 ```
 
 ## API
