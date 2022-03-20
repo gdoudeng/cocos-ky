@@ -6,8 +6,8 @@ import type { KyInstance } from "./types/ky.js";
 import type { Input, Options } from "./types/options.js";
 import { validateAndMerge } from "./utils/merge.js";
 import { Mutable } from "./utils/types.js";
+import "url-search-params-polyfill";
 import "whatwg-fetch";
-import "regenerator-runtime";
 
 const createInstance = (defaults?: Partial<Options>): KyInstance => {
 	// eslint-disable-next-line @typescript-eslint/promise-function-async

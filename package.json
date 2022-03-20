@@ -119,7 +119,7 @@
 		]
 	},
 	"dependencies": {
-		"regenerator-runtime": "^0.13.9",
+		"url-search-params-polyfill": "^8.1.1",
 		"whatwg-fetch": "^3.6.2"
 	}
 }
