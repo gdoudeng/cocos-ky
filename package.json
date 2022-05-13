@@ -6,7 +6,7 @@
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
 	},
-	"repository": "group900-3/cocos-ky",
+	"repository": "https://github.com/gdoudeng/cocos-ky.gi",
 	"funding": "https://github.com/sindresorhus/ky?sponsor=1",
 	"author": {
 		"name": "Sindre Sorhus",
