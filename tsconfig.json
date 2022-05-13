@@ -1,12 +1,15 @@
 {
 	"extends": "@sindresorhus/tsconfig",
 	"compilerOptions": {
-		"target": "ES5",
-		"lib": ["ES2019", "DOM", "DOM.Iterable"],
+		"target": "ES2015",
+		"lib": ["ES2015", "DOM", "DOM.Iterable"],
 		"useDefineForClassFields": false,
 		"allowSyntheticDefaultImports": true,
 		"module": "CommonJS",
-		"downlevelIteration": true
+		"downlevelIteration": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
 	},
 	"include": ["source", "test"]
 }
