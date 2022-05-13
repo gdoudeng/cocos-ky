@@ -3,10 +3,12 @@
 	"version": "1.30.2",
 	"description": "Tiny and elegant HTTP client based on the browser Fetch API",
 	"license": "MIT",
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/gdoudeng/cocos-ky.git",
+		"baseUrl": "https://github.com/gdoudeng/cocos-ky"
 	},
-	"repository": "https://github.com/gdoudeng/cocos-ky.gi",
+	"homepage": "https://github.com/gdoudeng/cocos-ky",
 	"funding": "https://github.com/sindresorhus/ky?sponsor=1",
 	"author": {
 		"name": "Sindre Sorhus",
