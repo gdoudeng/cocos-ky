@@ -5,7 +5,7 @@
 		"lib": ["ES2015", "DOM", "DOM.Iterable"],
 		"useDefineForClassFields": false,
 		"allowSyntheticDefaultImports": true,
-		"module": "CommonJS",
+		"module": "ES2020",
 		"downlevelIteration": true,
 		"moduleResolution": "node",
 		"esModuleInterop": true,

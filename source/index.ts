@@ -29,7 +29,9 @@ const createInstance = (defaults?: Partial<Options>): KyInstance => {
 	return ky as KyInstance;
 };
 
-export const ky = createInstance();
+const ky = createInstance();
+
+export default ky;
 
 export {
 	Options,
