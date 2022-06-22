@@ -1,6 +1,6 @@
 {
 	"name": "@gdoudeng/cocos-ky",
-	"version": "1.30.2",
+	"version": "1.30.3",
 	"description": "Tiny and elegant HTTP client based on the browser Fetch API",
 	"license": "MIT",
 	"repository": {
